@@ -36,6 +36,10 @@ const client = new MongoClient(process.env.MONGODB_URI, {
   },
 });
 
+// PORT=5000
+// MONGODB_URI=mongodb+srv://skill-hunt:gXbgPIHGAEkWUL1S@cluster0.pyzmqm9.mongodb.net/skillHuntDB?retryWrites=true&w=majority&appName=Cluster0
+
+
 const verifyFirebaseToken = async (req, res, next) => {
   const authHeader = req.headers.authorization;
   console.log("🚀 ~ verifyFirebaseToken ~ authHeader:", authHeader);

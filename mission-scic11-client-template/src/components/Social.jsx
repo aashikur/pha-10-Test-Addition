@@ -8,7 +8,7 @@ const Social = () => {
       <div>
         <img
         onClick={googleSignIn}
-          className="w-[64px]"
+          className="w-[64px] hover:cursor-pointer"
           src="https://img.icons8.com/?size=96&id=17949&format=png"
           alt=""
         />
